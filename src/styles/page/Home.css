@@ -1,0 +1,368 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#overview {
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+#overview {
+    scroll-margin-top: 70px;
+}
+
+#rooms {
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+#rooms {
+    scroll-margin-top: 70px;
+}
+
+#location {
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+#location {
+    scroll-margin-top: 70px;
+}
+
+.home-container {
+    height: fit-content;
+    background-color: var(--black-secondary);
+    padding-bottom: 50px;
+}
+
+.tag-home-page {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-top: 22px;
+    padding-inline: 100px;
+    padding-bottom: 20px;
+}
+
+.letter-tag-home-page {
+    font-size: 14px;
+}
+
+.letter-tag-home {
+    font-size: 14px;
+}
+
+.letter-tag-home-page:hover {
+    font-size: 14px;
+    color: var(--nude);
+}
+
+.out-line {
+    text-decoration: none;
+}
+
+.img-arrow-90 {
+    width: 10px;
+    height: 6.17px;
+    transform: rotate(-90deg);
+}
+
+.bg-home {
+    padding-inline: 100px;
+    padding-bottom: 45px;
+}
+
+.bg-tab-navigation-home {
+    display: flex;
+    gap: 15px;
+
+}
+
+.tab-navigation-home {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 40px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
+    padding-inline: 100px;
+}
+
+.btn-navigation-home {
+    background-color: var(--black-secondary);
+    color: var(--white);
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.btn-navigation-home:hover {
+    color: var(--nude);
+    border-bottom: 2px solid var(--nude);
+}
+
+.active-overview {
+    color: var(--nude);
+    border-bottom: 2px solid var(--nude);
+    background-color: var(--black-secondary);
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.bg-price-home {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-view-deal {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: var(--nude);
+    gap: 5px;
+    border-radius: 100px;
+    padding-inline: 15px;
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-view-deal:hover {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: var(--black-primary);
+    gap: 5px;
+    border-radius: 100px;
+    padding-inline: 15px;
+    color: var(--nude);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.letter-name-home {
+    color: var(--nude);
+    font-size: 32px;
+    margin: 0;
+    padding-bottom: 10px;
+
+}
+
+.btn-view-deal {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: var(--nude);
+    gap: 5px;
+    border-radius: 100px;
+    padding-inline: 15px;
+}
+
+.lt-price-home {
+    font-size: 32px;
+    color: var(--nude);
+
+}
+
+
+.icon-location-fav {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.letter-location-fav {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 300;
+}
+
+
+
+.homepage-link-img {
+    padding-top: 15px;
+    display: flex;
+
+
+}
+
+.bg-img-link {
+    width: 100%;
+    position: relative;
+
+}
+
+.w-imgHome1 {
+    width: 100%;
+    min-width: 715px;
+    height: 400px;
+}
+
+.bg-review-see-photo {
+    width: 95%;
+    /* width: 715px; */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 332px;
+}
+
+.bg-polygon {
+    position: relative;
+}
+
+.set-polygon {
+    position: relative;
+}
+
+.lt-polygon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 14px;
+
+}
+
+.set-lt-lt-polygon {
+    color: var(--nude);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-see-photo {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: var(--nude);
+    gap: 5px;
+    border-radius: 100px;
+    padding-inline: 15px;
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-see-photo:hover {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: var(--black-primary);
+    gap: 5px;
+    border-radius: 100px;
+    padding-inline: 15px;
+    color: var(--nude);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bg-grid-img {
+    /* min-width: 365px;
+    width: 500px;
+    height: 400px; */
+    /* width: 100%; */
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-inline: 10px;
+    gap: 10px;
+
+}
+
+.bg-all-img-grid {
+    width: 250px;
+    height: 194px;
+}
+
+.bg-all-img-grid1 {
+    max-width: 100%;
+    min-width: 250px;
+    height: 194px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.bg-all-img-grid2 {
+    max-width: 100%;
+    min-width: 250px;
+    height: 194px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.bg-all-img-grid3 {
+    max-width: 100%;
+    min-width: 250px;
+    height: 194px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.bg-all-img-grid4 {
+    max-width: 100%;
+    min-width: 250px;
+    height: 194px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+@media screen and (max-width: 1430px) {
+    .w-imgHome1 {
+        width: 100%;
+        min-width: 610px;
+        height: 400px;
+    }
+
+    .bg-all-img-grid1 {
+        max-width: 100%;
+        min-width: 230px;
+        height: 194px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .bg-all-img-grid2 {
+        max-width: 100%;
+        min-width: 230px;
+        height: 194px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .bg-all-img-grid3 {
+        max-width: 100%;
+        min-width: 230px;
+        height: 194px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .bg-all-img-grid4 {
+        max-width: 100%;
+        min-width: 230px;
+        height: 194px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+
+}

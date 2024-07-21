@@ -1,0 +1,57 @@
+.dropdown-location {
+    width: 400px;
+    height: 40px;
+    position: relative;
+    display: inline-block;
+    color: var(--black);
+  }
+  
+.btn-dropdown {
+    width: 400px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid var(--nude);
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dropdown-content {
+    width: 400px;
+    height: 40px;
+    height: fit-content;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-block-start: 10px;
+    background-color: var(--white) ;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.lt-dropdown{
+    color: var(--black);
+    font-size: 14px;
+    margin: 0;
+    padding-left: 15px;
+  }
+.bg-dropdown-color{
+    color: var(--black);
+    padding-right: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D9D9D9;
+    padding-top: 15px;
+  }
+  .letter-name-city{
+    padding-left: 10px;
+  }
+  .lt-name-city{
+    color: var(--black);
+    font-size: 14px;
+  }

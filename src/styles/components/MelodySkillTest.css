@@ -1,0 +1,7 @@
+.melody-container{
+    background-color:  var(--black-secondary);
+    font-size: 32px;
+    padding-left: 105px;
+    padding-block:30px;
+    margin: 0;
+}

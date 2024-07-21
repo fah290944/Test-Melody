@@ -1,0 +1,30 @@
+.box-location{
+    display: flex;
+    justify-content: center;
+
+}
+.set-explore{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.explore-bg{
+    display: flex;
+    justify-content: center;
+}
+.explore-container{
+    width: 310px;
+    height: 40px;
+    background-color:  var(--white);
+    padding-left: 10px;
+}
+
+.detail-explore{
+    display: flex;
+    gap: 5px;
+}
+
+.img-180{
+    transform: rotate(-180deg);
+}

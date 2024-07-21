@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+:root {
+  --nude: #D5AA7F;
+  --black: #000;
+  --black-primary: #1E1E1E;
+  --black-secondary: #2D2928;
+  --white: #FFF;
+  --brown: #4B2804;
+  --grey: #757575;
+  --grey-secondary: #EDEDED;
+  --grey-third: #D9D9D9;
+}
+#root{
+  min-width: 1300px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  color: #fff;
+  font-family: "Noto Sans Thai", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.test{
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

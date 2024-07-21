@@ -1,0 +1,120 @@
+.room-container{
+    height: fit-content;
+    background-color: var(--black-secondary);
+    padding-inline: 100px;
+}
+.lt-room{
+    width: fit-content;
+    font-size: 24px;    
+    color: var(--nude);
+    border-bottom: 2px solid var(--nude);
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.bg-rooms{
+    border-bottom: 1px solid var(--nude);
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.letter-name-rooms{
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+.a-room{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.room-option-img{
+    width: 570px ;
+    display: flex;
+    gap: 20px;
+
+
+}
+.room-option{
+    width: 268px ;
+}
+.lt-a-room{
+    font-size: 16px;
+    margin: 0;
+}
+.op-letter{
+    font-weight: 300;
+}
+.h{
+    width: 268px ;
+    padding-top: 20px;
+}
+.area{
+    padding-top: 45px;
+}
+
+.guest{
+    width: 70px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sum-img-person{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+.img-person{
+    display: flex;
+
+}
+.price-room-night{
+    width: 140px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btn-choose{
+    width: 90px;
+    height: 40px;
+    background-color: var(--nude);
+    border: none;
+    color: var(--black-primary);
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 16px;
+    align-self: center;
+}
+.btn-choose:hover{
+    background-color: var(--black-primary);
+    border: 1px solid var(--black-primary);
+    color: var(--nude);
+}
+
+.see-room{
+    width: 200px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+}
+.see-room:hover{
+    /* padding-top: 100px; */
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--nude);
+}
+.li-see-room{
+    font-size: 14px;
+    color: var(--nude);
+}
+
+
+
