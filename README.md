@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+Please install npm i before running the code:
+
+### `npm i`
+
 In the project directory, you can run:
 
 ### `npm start`
